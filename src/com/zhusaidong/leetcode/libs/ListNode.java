@@ -10,11 +10,11 @@ public class ListNode{
 	/**
 	 * The Val.
 	 */
-	int      val;
+	public int      val;
 	/**
 	 * The Next.
 	 */
-	ListNode next;
+	public ListNode next;
 	
 	/**
 	 * Instantiates a new List node.

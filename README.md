@@ -22,10 +22,11 @@ import com.zhusaidong.leetcode.libs.*;
  */
 public class $!velocityTool.camelCaseName(${question.titleSlug}){
 	public static void main(String[] args){
-		Solution solution = new MergeTwoSortedLists()
+		Solution solution = new $!velocityTool.camelCaseName(${question.titleSlug})()
 				.new Solution();
 		System.out.println(solution);
 	}
+
     ${question.code}
 }
 

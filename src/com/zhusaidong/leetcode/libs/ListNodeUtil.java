@@ -5,6 +5,7 @@ package com.zhusaidong.leetcode.libs;
  *
  * @author zhusaidong <zhusaidong@gmail.com>
  */
+@SuppressWarnings("unused")
 public class ListNodeUtil{
 	/**
 	 * Create list node.
