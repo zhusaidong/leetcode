@@ -31,7 +31,7 @@ public class TreeNode{
 	 *
 	 * @param x the x
 	 */
-	TreeNode(int x){
+	public TreeNode(int x){
 		val = x;
 	}
 }
