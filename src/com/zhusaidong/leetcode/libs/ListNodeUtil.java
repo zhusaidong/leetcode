@@ -26,20 +26,4 @@ public class ListNodeUtil{
 		}
 		return listNode;
 	}
-	
-	/**
-	 * Print list node.
-	 *
-	 * @param listNode the list node
-	 */
-	public static void print(ListNode listNode){
-		StringBuilder sb      = new StringBuilder();
-		ListNode      pointer = listNode;
-		while(pointer != null){
-			sb.append("[").append(pointer.val).append("|-]->");
-			pointer = pointer.next;
-		}
-		sb.append("null");
-		System.out.println(sb.toString());
-	}
 }

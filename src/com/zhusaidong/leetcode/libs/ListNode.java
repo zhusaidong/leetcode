@@ -19,7 +19,7 @@ public class ListNode{
 	/**
 	 * Instantiates a new List node.
 	 */
-	ListNode(){
+	public ListNode(){
 	}
 	
 	/**
@@ -27,7 +27,7 @@ public class ListNode{
 	 *
 	 * @param val the val
 	 */
-	ListNode(int val){
+	public ListNode(int val){
 		this.val = val;
 	}
 	
@@ -37,13 +37,20 @@ public class ListNode{
 	 * @param val  the val
 	 * @param next the next
 	 */
-	ListNode(int val, ListNode next){
+	public ListNode(int val, ListNode next){
 		this.val = val;
 		this.next = next;
 	}
 	
 	@Override
 	public String toString(){
-		return "ListNode{" + "val=" + val + ", next=" + next + '}';
+		StringBuilder sb      = new StringBuilder();
+		ListNode      pointer = this;
+		while(pointer != null){
+			sb.append("[").append(pointer.val).append("|-]->");
+			pointer = pointer.next;
+		}
+		sb.append("null");
+		return sb.toString();
 	}
 }

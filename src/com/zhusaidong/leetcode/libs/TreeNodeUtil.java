@@ -47,41 +47,4 @@ public class TreeNodeUtil{
 		
 		return treeNode;
 	}
-	
-	/**
-	 * Print.
-	 *
-	 * @param treeNode the tree node
-	 */
-	public static void print(TreeNode treeNode){
-		List<Integer> treeList = new ArrayList<>();
-		toPrint(treeNode, treeList);
-		System.out.println(treeList);
-		treeList.clear();
-	}
-	
-	/**
-	 * Print.
-	 *
-	 * @param treeNode the tree node
-	 * @param treeList the tree list
-	 */
-	private static void toPrint(TreeNode treeNode, List<Integer> treeList){
-		treeList.add(treeNode.val);
-		if(treeNode.left == null && treeNode.right == null){
-			return;
-		}
-		
-		if(treeNode.left == null){
-			treeList.add(null);
-		}else{
-			toPrint(treeNode.left, treeList);
-		}
-		
-		if(treeNode.right == null){
-			treeList.add(null);
-		}else{
-			toPrint(treeNode.right, treeList);
-		}
-	}
 }

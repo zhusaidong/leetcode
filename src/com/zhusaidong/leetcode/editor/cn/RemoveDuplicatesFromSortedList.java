@@ -25,8 +25,8 @@ public class RemoveDuplicatesFromSortedList{
 		Solution solution = new RemoveDuplicatesFromSortedList()
 				.new Solution();
 		ListNode head = ListNodeUtil.create(1, 1, 2, 3, 4, 4, 4);
-		ListNodeUtil.print(head);
-		ListNodeUtil.print(solution.deleteDuplicates(head));
+		System.out.println(head);
+		System.out.println(solution.deleteDuplicates(head));
 	}
 	
 	//leetcode submit region begin(Prohibit modification and deletion)
