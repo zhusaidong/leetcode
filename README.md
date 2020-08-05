@@ -4,7 +4,7 @@
 
 ## idea 插件
 
-TempFilePath: `D:\java\IDEAProjects\leetcode\src\com\zhusaidong`
+TempFilePath: `D:\java\IDEAProjects\leetcode\src\main\com\zhusaidong`
 
 CodeFileName: `$!velocityTool.camelCaseName(${question.titleSlug})`
 
@@ -21,13 +21,25 @@ import com.zhusaidong.leetcode.libs.*;
  * @see <a href="https://leetcode-cn.com/problems/${question.titleSlug}/">${question.title}</a>
  */
 public class $!velocityTool.camelCaseName(${question.titleSlug}){
-	public static void main(String[] args){
-		Solution solution = new $!velocityTool.camelCaseName(${question.titleSlug})()
-				.new Solution();
-		System.out.println(solution);
-	}
+	/*
+	package com.zhusaidong.leetcode.editor.cn;
 
-    ${question.code}
+    import org.junit.*;
+
+	public class $!velocityTool.camelCaseName(${question.titleSlug})Test{
+	@Test
+	public void testSolution(){
+			$!velocityTool.camelCaseName(${question.titleSlug}) .Solution solution = 
+			new $!velocityTool.camelCaseName(${question.titleSlug}) .Solution();
+			
+			//Assert
+			
+		}
+	}
+	
+	*/
+	static
+	${question.code}
 }
 
 ```
