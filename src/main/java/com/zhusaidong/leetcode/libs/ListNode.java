@@ -1,5 +1,7 @@
 package com.zhusaidong.leetcode.libs;
 
+import java.util.*;
+
 /**
  * The type List node.
  *
@@ -52,5 +54,17 @@ public class ListNode{
 		}
 		sb.append("null");
 		return sb.toString();
+	}
+	
+	@Override
+	public boolean equals(Object object){
+		if(this == object){
+			return true;
+		}
+		if(object == null || getClass() != object.getClass()){
+			return false;
+		}
+		ListNode listNode = (ListNode)object;
+		return this.toString().equals(listNode.toString());
 	}
 }
