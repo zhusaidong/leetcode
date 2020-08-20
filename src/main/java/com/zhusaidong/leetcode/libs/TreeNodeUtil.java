@@ -1,7 +1,5 @@
 package com.zhusaidong.leetcode.libs;
 
-import java.util.*;
-
 /**
  * Tree node工具，调试时使用，提交代码时需要删除，避免错误
  *

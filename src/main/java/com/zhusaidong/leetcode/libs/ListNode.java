@@ -1,7 +1,5 @@
 package com.zhusaidong.leetcode.libs;
 
-import java.util.*;
-
 /**
  * The type List node.
  *
