@@ -1,7 +1,5 @@
 package com.zhusaidong.leetcode.editor.cn;
 
-import com.zhusaidong.leetcode.libs.*;
-
 /**
  * //给你两个二进制字符串，返回它们的和（用二进制表示）。
  * //

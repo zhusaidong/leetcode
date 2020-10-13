@@ -24,6 +24,7 @@ public class RemoveDuplicatesFromSortedList{
 	public static void main(String[] args){
 		Solution solution = new RemoveDuplicatesFromSortedList()
 				.new Solution();
+		
 		ListNode head = ListNodeUtil.create(1, 1, 2, 3, 4, 4, 4);
 		System.out.println(head);
 		System.out.println(solution.deleteDuplicates(head));

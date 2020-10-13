@@ -26,10 +26,15 @@ public class ReverseVowelsOfAString{
 	public static void main(String[] args){
 		Solution solution = new ReverseVowelsOfAString()
 				.new Solution();
-		System.out.println(solution.reverseVowels("hello"));//holle
-		System.out.println(solution.reverseVowels("leetcode"));//leotcede
-		System.out.println(solution.reverseVowels("ai"));//ia
-		System.out.println(solution.reverseVowels("aq"));//aq
+		
+		//holle
+		System.out.println(solution.reverseVowels("hello"));
+		//leotcede
+		System.out.println(solution.reverseVowels("leetcode"));
+		//ia
+		System.out.println(solution.reverseVowels("ai"));
+		//aq
+		System.out.println(solution.reverseVowels("aq"));
 	}
 	
 	//leetcode submit region begin(Prohibit modification and deletion)

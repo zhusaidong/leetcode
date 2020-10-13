@@ -59,8 +59,10 @@ public class RemoveElement{
 	public static void main(String[] args){
 		Solution solution = new RemoveElement()
 				.new Solution();
+		
 		int[] nums   = new int[] {0, 1, 2, 2, 3, 0, 4, 2};
 		int   length = solution.removeElement(nums, 2);
+		
 		System.out.println(length);
 		System.out.println(Arrays.toString(nums));
 	}

@@ -29,6 +29,7 @@ public class TwoSumIiInputArrayIsSorted{
 	public static void main(String[] args){
 		Solution solution = new TwoSumIiInputArrayIsSorted()
 				.new Solution();
+		
 		System.out.println(Arrays.toString(solution.twoSum(new int[] {2, 7, 11, 15}, 9)));
 	}
 	

@@ -54,18 +54,18 @@ public class KDiffPairsInAnArray{
 		 * //解释: 数组中有两个 2-diff 数对, (1, 3) 和 (3, 5)。
 		 * //尽管数组中有两个1，但我们只应返回不同的数对的数量。
 		 */
-		//System.out.println(solution.findPairs(new int[] {3, 1, 4, 1, 5}, 2));
+		System.out.println(solution.findPairs(new int[] {3, 1, 4, 1, 5}, 2));
 		/*
 		 * //输出: 4
 		 * //解释: 数组中有四个 1-diff 数对, (1, 2), (2, 3), (3, 4) 和 (4, 5)。
 		 */
-		//System.out.println(solution.findPairs(new int[] {1, 2, 3, 4, 5}, 1));
+		System.out.println(solution.findPairs(new int[] {1, 2, 3, 4, 5}, 1));
 		/*
 		 * //输出: 1
 		 * //解释: 数组中只有一个 0-diff 数对，(1, 1)。
 		 */
-		//System.out.println(solution.findPairs(new int[] {1, 3, 1, 5, 4}, 0));
-		//System.out.println(solution.findPairs(new int[] {1, 1, 1, 2, 2}, 0));
+		System.out.println(solution.findPairs(new int[] {1, 3, 1, 5, 4}, 0));
+		System.out.println(solution.findPairs(new int[] {1, 1, 1, 2, 2}, 0));
 		System.out.println(solution.findPairs(new int[] {6, 2, 9, 3, 9, 6, 7, 7, 6, 4}, 3));
 	}
 	

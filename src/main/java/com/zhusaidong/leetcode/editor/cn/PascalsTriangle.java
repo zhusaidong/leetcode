@@ -29,6 +29,7 @@ public class PascalsTriangle{
 	public static void main(String[] args){
 		Solution solution = new PascalsTriangle()
 				.new Solution();
+		
 		System.out.println(solution.generate(10));
 	}
 	

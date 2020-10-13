@@ -32,16 +32,15 @@ public class ImplementStrstr{
 	public static void main(String[] args){
 		Solution solution = new ImplementStrstr()
 				.new Solution();
-		/*
-		System.out.println(solution.strStr("hello", "ll"));//2
-		System.out.println(solution.strStr("hello", "h"));//0
-		System.out.println(solution.strStr("hello", "o"));//4
-		System.out.println(solution.strStr("aaaaa", "bba"));//-1
-		System.out.println(solution.strStr("abcbcdefg", "bcd"));//3
-		System.out.println(solution.strStr("a", ""));//0
-		System.out.println(solution.strStr("a", "aa"));//-1
-		*/
-		System.out.println(solution.strStr("mississippi", "issipi"));//-1
+		
+		System.out.println(solution.strStr("hello", "ll"));
+		System.out.println(solution.strStr("hello", "h"));
+		System.out.println(solution.strStr("hello", "o"));
+		System.out.println(solution.strStr("aaaaa", "bba"));
+		System.out.println(solution.strStr("abcbcdefg", "bcd"));
+		System.out.println(solution.strStr("a", ""));
+		System.out.println(solution.strStr("a", "aa"));
+		System.out.println(solution.strStr("mississippi", "issipi"));
 	}
 	
 	//leetcode submit region begin(Prohibit modification and deletion)

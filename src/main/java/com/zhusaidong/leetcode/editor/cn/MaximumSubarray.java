@@ -25,8 +25,11 @@ public class MaximumSubarray{
 	public static void main(String[] args){
 		Solution solution = new MaximumSubarray()
 				.new Solution();
-		System.out.println(solution.maxSubArray(new int[] {-2, 1, -3, 4, -1, 2, 1, -5, 4}));//6
-		System.out.println(solution.maxSubArray(new int[] {1}));//1
+		
+		//6
+		System.out.println(solution.maxSubArray(new int[] {-2, 1, -3, 4, -1, 2, 1, -5, 4}));
+		//1
+		System.out.println(solution.maxSubArray(new int[] {1}));
 	}
 	
 	//leetcode submit region begin(Prohibit modification and deletion)

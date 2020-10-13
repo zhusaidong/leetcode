@@ -38,12 +38,19 @@ public class SearchInsertPosition{
 	public static void main(String[] args){
 		Solution solution = new SearchInsertPosition()
 				.new Solution();
-		System.out.println(solution.searchInsert(new int[] {1, 3, 5, 6}, 5));//2
-		System.out.println(solution.searchInsert(new int[] {1, 3, 5, 6}, 2));//1
-		System.out.println(solution.searchInsert(new int[] {1, 3, 5, 6}, 7));//4
-		System.out.println(solution.searchInsert(new int[] {1, 3, 5, 6}, 0));//0
-		System.out.println(solution.searchInsert(new int[] {1}, 1));//0
-		System.out.println(solution.searchInsert(new int[] {1, 2, 4, 6, 8, 9, 10}, 10));//6
+		
+		//2
+		System.out.println(solution.searchInsert(new int[] {1, 3, 5, 6}, 5));
+		//1
+		System.out.println(solution.searchInsert(new int[] {1, 3, 5, 6}, 2));
+		//4
+		System.out.println(solution.searchInsert(new int[] {1, 3, 5, 6}, 7));
+		//0
+		System.out.println(solution.searchInsert(new int[] {1, 3, 5, 6}, 0));
+		//0
+		System.out.println(solution.searchInsert(new int[] {1}, 1));
+		//6
+		System.out.println(solution.searchInsert(new int[] {1, 2, 4, 6, 8, 9, 10}, 10));
 	}
 	
 	//leetcode submit region begin(Prohibit modification and deletion)

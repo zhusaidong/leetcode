@@ -30,14 +30,23 @@ public class Sqrtx{
 	public static void main(String[] args){
 		Solution solution = new Sqrtx()
 				.new Solution();
-		System.out.println(solution.mySqrt(4));//2
-		System.out.println(solution.mySqrt(8));//2
-		System.out.println(solution.mySqrt(1));//1
-		System.out.println(solution.mySqrt(9));//3
-		System.out.println(solution.mySqrt(25));//5
-		System.out.println(solution.mySqrt(24));//4
-		System.out.println(solution.mySqrt(2));//1
-		System.out.println(solution.mySqrt(2147395599));//46339
+		
+		//2
+		System.out.println(solution.mySqrt(4));
+		//2
+		System.out.println(solution.mySqrt(8));
+		//1
+		System.out.println(solution.mySqrt(1));
+		//3
+		System.out.println(solution.mySqrt(9));
+		//5
+		System.out.println(solution.mySqrt(25));
+		//4
+		System.out.println(solution.mySqrt(24));
+		//1
+		System.out.println(solution.mySqrt(2));
+		//46339
+		System.out.println(solution.mySqrt(2147395599));
 	}
 	
 	//leetcode submit region begin(Prohibit modification and deletion)

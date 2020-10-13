@@ -26,7 +26,9 @@ public class MoveZeroes{
 	public static void main(String[] args){
 		Solution solution = new MoveZeroes()
 				.new Solution();
-		int[] numbers = new int[] {1, 1, 0, 3, 12};//[1,3,12,0,0]
+		
+		//[1,3,12,0,0]
+		int[] numbers = new int[] {1, 1, 0, 3, 12};
 		solution.moveZeroes(numbers);
 		System.out.println(Arrays.toString(numbers));
 	}

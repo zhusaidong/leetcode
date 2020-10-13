@@ -33,10 +33,12 @@ public class MergeSortedArray{
 	public static void main(String[] args){
 		Solution solution = new MergeSortedArray()
 				.new Solution();
+		
 		int[] nums1 = new int[] {-1, 0, 0, 3, 3, 3, 0, 0, 0};
 		int[] nums2 = new int[] {1, 2, 2};
 		solution.merge(nums1, 6, nums2, 3);
-		System.out.println(Arrays.toString(nums1));//[-1,0,0,1,2,2,3,3,3]
+		//[-1,0,0,1,2,2,3,3,3]
+		System.out.println(Arrays.toString(nums1));
 	}
 	
 	//leetcode submit region begin(Prohibit modification and deletion)

@@ -66,15 +66,14 @@ public class BackspaceStringCompare{
 		Solution solution = new BackspaceStringCompare()
 				.new Solution();
 		
-		///
 		//true,S 和 T 都会变成 “ac”
-		//System.out.println(solution.backspaceCompare("ab#c", "ad#c"));
+		System.out.println(solution.backspaceCompare("ab#c", "ad#c"));
 		//true,S 和 T 都会变成 “”
-		//System.out.println(solution.backspaceCompare("ab##", "c#d#"));
+		System.out.println(solution.backspaceCompare("ab##", "c#d#"));
 		//true,S 和 T 都会变成 “c”
-		//System.out.println(solution.backspaceCompare("a##c", "#a#c"));
+		System.out.println(solution.backspaceCompare("a##c", "#a#c"));
 		//false,S 会变成 “c”，但 T 仍然是 “b”
-		//System.out.println(solution.backspaceCompare("a#c", "b"));
+		System.out.println(solution.backspaceCompare("a#c", "b"));
 		//true,S 和 T 都会变成 “btw”
 		System.out.println(solution.backspaceCompare("bxj##tw", "bxo#j##tw"));
 	}

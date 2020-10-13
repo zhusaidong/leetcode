@@ -30,6 +30,7 @@ public class ReverseString{
 	public static void main(String[] args){
 		Solution solution = new ReverseString()
 				.new Solution();
+		
 		char[] chars = "hello".toCharArray();
 		solution.reverseString(chars);
 		System.out.println(chars);
@@ -37,15 +38,6 @@ public class ReverseString{
 	
 	//leetcode submit region begin(Prohibit modification and deletion)
 	class Solution{
-		public void reverseString1(char[] s){
-			int length = s.length;
-			for(int i = 0; i < length / 2; i++){
-				char temp = s[i];
-				s[i] = s[length - 1 - i];
-				s[length - 1 - i] = temp;
-			}
-		}
-		
 		public void reverseString(char[] s){
 			int firstPointer = 0;
 			int lastPointer  = s.length - 1;

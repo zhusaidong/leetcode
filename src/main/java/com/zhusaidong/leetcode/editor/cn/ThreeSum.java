@@ -30,6 +30,8 @@ public class ThreeSum{
 	public static void main(String[] args){
 		Solution solution = new ThreeSum()
 				.new Solution();
+		
+		///
 		//System.out.println(solution.threeSum(new int[] {-1, 0, 1, 2, -1, -4}));
 		//System.out.println(solution.threeSum(new int[] {0, 0, 0, 0}));
 		//System.out.println(solution.threeSum(new int[] {-1, 0, 1, 0}));
