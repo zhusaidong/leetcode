@@ -7,7 +7,7 @@ package com.zhusaidong.leetcode.editor.cn;
  * //
  * // 问总共有多少条不同的路径？
  * //
- * //
+ * // <img src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/22/robot_maze.png"/>
  * //
  * // 例如，上图是一个7 x 3 的网格。有多少可能的路径？
  * //
