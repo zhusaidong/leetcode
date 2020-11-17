@@ -57,7 +57,7 @@ public class Triangle{
 					integers.set(j, Math.min(upLeft, upRight) + integers.get(j));
 				}
 			}
-			System.out.println(triangle);
+			//System.out.println(triangle);
 			
 			return triangle.get(triangle.size() - 1).stream().min(Integer::compareTo).orElse(0);
 		}
