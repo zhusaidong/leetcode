@@ -19,6 +19,21 @@ public class TreeNodeUtil{
 	/**
 	 * Create tree node.
 	 *
+	 * @param root the root
+	 *
+	 * @return the tree node
+	 */
+	public static TreeNode create(Integer root){
+		TreeNode treeNode = new TreeNode(root);
+		treeNode.left = null;
+		treeNode.right = null;
+		
+		return treeNode;
+	}
+	
+	/**
+	 * Create tree node.
+	 *
 	 * @param root  the root
 	 * @param left  the left
 	 * @param right the right
