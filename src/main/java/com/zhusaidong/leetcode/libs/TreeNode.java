@@ -40,7 +40,7 @@ public class TreeNode{
 	@Override
 	public String toString(){
 		List<Integer> treeList = new ArrayList<>();
-		this.toPrint(this, treeList);
+		toPrint(this, treeList);
 		return String.valueOf(treeList);
 	}
 	

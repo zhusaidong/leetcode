@@ -24,11 +24,7 @@ public class TreeNodeUtil{
 	 * @return the tree node
 	 */
 	public static TreeNode create(Integer root){
-		TreeNode treeNode = new TreeNode(root);
-		treeNode.left = null;
-		treeNode.right = null;
-		
-		return treeNode;
+		return create(root, null, null);
 	}
 	
 	/**
@@ -40,24 +36,31 @@ public class TreeNodeUtil{
 	 *
 	 * @return the tree node
 	 */
-	public static TreeNode create(Integer root, Integer left, Integer right){
-		return create(root, left == null ? null : new TreeNode(left), right == null ? null : new TreeNode(right));
+	public static TreeNode create(Integer root, Object left, Object right){
+		TreeNode treeNode = new TreeNode(root);
+		treeNode.left = getNode(left);
+		treeNode.right = getNode(right);
+		
+		return treeNode;
 	}
 	
 	/**
-	 * Create tree node.
+	 * Get tree node.
 	 *
-	 * @param root  the root
-	 * @param left  the left
-	 * @param right the right
+	 * @param obj the obj
 	 *
 	 * @return the tree node
 	 */
-	public static TreeNode create(Integer root, TreeNode left, TreeNode right){
-		TreeNode treeNode = new TreeNode(root);
-		treeNode.left = left;
-		treeNode.right = right;
-		
-		return treeNode;
+	private static TreeNode getNode(Object obj){
+		if(obj == null){
+			return null;
+		}
+		if(obj instanceof TreeNode){
+			return (TreeNode)obj;
+		}
+		if(obj instanceof Integer){
+			return new TreeNode((int)obj);
+		}
+		return null;
 	}
 }
