@@ -3,33 +3,33 @@ package com.zhusaidong.leetcode.libs;
 import java.util.*;
 
 /**
- * The type Tree node.
+ * Tree node
  *
- * @author zhusaidong <zhusaidong@gmail.com>
+ * @author zhusaidong
  */
 @SuppressWarnings("unused")
 public class TreeNode{
 	/**
-	 * The Val.
+	 * 值
 	 */
-	public int      val;
+	public int val;
 	/**
-	 * The Left.
+	 * 左节点
 	 */
 	public TreeNode left;
 	/**
-	 * The Right.
+	 * 右节点
 	 */
 	public TreeNode right;
 	
 	/**
-	 * Instantiates a new Tree node.
+	 * 构造方法
 	 */
 	TreeNode(){
 	}
 	
 	/**
-	 * Instantiates a new Tree node.
+	 * 构造方法
 	 *
 	 * @param x the x
 	 */
@@ -45,10 +45,10 @@ public class TreeNode{
 	}
 	
 	/**
-	 * Print.
+	 * 打印
 	 *
-	 * @param treeNode the tree node
-	 * @param treeList the tree list
+	 * @param treeNode tree node
+	 * @param treeList tree list
 	 */
 	private void toPrint(TreeNode treeNode, List<Integer> treeList){
 		treeList.add(treeNode.val);

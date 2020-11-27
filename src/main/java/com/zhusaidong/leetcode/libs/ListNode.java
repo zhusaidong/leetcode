@@ -1,41 +1,41 @@
 package com.zhusaidong.leetcode.libs;
 
 /**
- * The type List node.
+ * List node
  *
- * @author zhusaidong <zhusaidong@gmail.com>
+ * @author zhusaidong
  */
 @SuppressWarnings("unused")
 public class ListNode{
 	/**
-	 * The Val.
+	 * 值
 	 */
-	public int      val;
+	public int val;
 	/**
-	 * The Next.
+	 * 下个节点
 	 */
 	public ListNode next;
 	
 	/**
-	 * Instantiates a new List node.
+	 * 构造方法
 	 */
 	public ListNode(){
 	}
 	
 	/**
-	 * Instantiates a new List node.
+	 * 构造方法
 	 *
-	 * @param val the val
+	 * @param val 值
 	 */
 	public ListNode(int val){
 		this.val = val;
 	}
 	
 	/**
-	 * Instantiates a new List node.
+	 * 构造方法
 	 *
-	 * @param val  the val
-	 * @param next the next
+	 * @param val  值
+	 * @param next 下个节点
 	 */
 	public ListNode(int val, ListNode next){
 		this.val = val;
